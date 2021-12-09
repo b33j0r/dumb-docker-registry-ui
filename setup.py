@@ -9,5 +9,5 @@ setup(
     license='',
     author='Brian Jorgensen',
     author_email='brian.jorgensen@gmail.com',
-    description='The silliest docker repository explorer I could think of.'
+    description='The silliest docker registry explorer I could think of.'
 )

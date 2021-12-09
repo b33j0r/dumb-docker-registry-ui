@@ -22,11 +22,12 @@ body {
 }
 
 main {
+    height: 100%;
     margin: 0 16px;
-    padding: 3vw 3vw 0 3vw;
+    padding: 0 3vw 0 3vw;
 }
 
-a, a:visited {
+a, a:visited, a:active {
     text-decoration: none;
     color: #187329;
 }
@@ -36,18 +37,45 @@ a:hover {
 }
 
 hr {
-    margin: 24px 0;
+    margin: 24px 0 16px 0;
     border: 2px solid #2472a2;
     border-radius: 1px;
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 3vw;
     color: #0c5481;
-    font-size: 180%;
     font-weight: bolder;
 }
 
+h1 {
+    position: relative;
+    top: 0.4vw;
+    color: #ab5d1f;
+    float: right;
+    text-align: right;
+    font-size: 120%;
+    font-family: "Gwendolyn Bold", serif;
+}
+
+h1 a,
+h1 a:visited,
+h1 a:active,
+h1 a:hover {
+    color: #ab5d1f;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #542c0d;
+}
+
+h2 {
+    font-size: 160%;
+}
+
 h3 {
+    padding-top: 1vw;
     font-weight: bold;
 }
 
@@ -57,6 +85,11 @@ ul {
 
 li span {
     display: inline-block;
+}
+
+h3,
+li.image-tag-item {
+    padding-bottom: 2vw;
 }
 
 li ul li {
@@ -69,4 +102,21 @@ li ul li {
 
 .dict-key:after {
     content: ":";
+}
+
+.watermark {
+    padding-top: 3vw;
+    text-align: left;
+    color: #bdced5;
+    font-size: 2vw;
+}
+
+.watermark a,
+.watermark a:visited,
+.watermark a:active {
+    color: #bdced5;
+}
+
+.watermark a:hover {
+    color: skyblue;
 }

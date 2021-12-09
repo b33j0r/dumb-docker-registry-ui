@@ -2,3 +2,8 @@
     font-family: "Red Hat Mono";
     src: url(../fonts/RedHatMono-VariableFont_wght.ttf);
 }
+
+@font-face {
+    font-family: "Gwendolyn Bold";
+    src: url(../fonts/Gwendolyn-Bold.ttf);
+}

@@ -9,7 +9,7 @@
             <h3>{{ repo.name }}</h3>
             <ul>
                 {% for tag in repo.tags %}
-                    <li>
+                    <li class="image-tag-item">
                         <a href="">{{ tag.name }}</a>
                         <ul>
                             {% for k, v in tag.manifest.items() if k not in ["history", "signatures", "fsLayers"] %}
