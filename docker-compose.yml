@@ -1,0 +1,16 @@
+---
+version: '3'
+
+services:
+
+  dumb:
+    image: registry.docker.arpa:5000/dumb-docker-registry-ui:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "5858:5858"
+    volumes:
+      - "./config:/config:ro"
+      - "./src:/app/src"

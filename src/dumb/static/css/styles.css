@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+    padding: 16px 16px 0 16px;
+    background: #000;
+    color: #fff;
+    font-size: 2vw;
+    font-family: "Red Hat Mono", monospace;
+    line-height: 1.6em;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+ul {
+    width: 100%;
+}
+
+li span {
+    display: inline-block;
+}
+
+li ul li {
+   margin-left: 16px;
+}
+
+.dict-key {
+    width: 40vw;
+}
+
+.dict-key:after {
+    content: ":";
+}
