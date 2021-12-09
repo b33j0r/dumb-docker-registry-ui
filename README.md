@@ -4,7 +4,7 @@ I was setting up a throw-away docker registry in my homelab one night. On this p
 
 Figuring it'd be quicker, I made a dumb flask app to hit the API and render the result to a template. Then it turned out to be kinda fun, so I styled it.
 
-![Screenshot of earliest interface](docs/screenshots/2021-12-08-001.png?raw=true)
+![Screenshot of earliest interface](docs/screenshots/2021-12-08-001.png?raw=true | width=200)
 
 For local/dev use only. No emphasis on security or features at this time. It's just a way to browse the API, assuming you can already. And limited browsing, at that.
 
