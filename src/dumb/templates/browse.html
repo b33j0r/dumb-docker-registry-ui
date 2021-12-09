@@ -12,7 +12,7 @@
                     <li class="image-tag-item">
                         <a href="">{{ tag.name }}</a>
                         <ul>
-                            {% for k, v in tag.manifest.items() if k not in ["name", "history", "signatures", "fsLayers"] %}
+                            {% for k, v in tag.manifest.items() if k not in ["tag", "name", "history", "signatures", "fsLayers"] %}
                                 <li>
                                     <span class="dict-key">{{ k }}</span>
                                     <span class="dict-value">{{ v }}</span>
