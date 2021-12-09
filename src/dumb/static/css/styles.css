@@ -6,34 +6,45 @@ body, html {
 }
 
 html {
-    background: skyblue;
+    background: #2472a2;
 }
 
 body {
-    background: midnightblue;
-    color: #c2eafc;
-    font-size: 2vw;
-    font-family: "Red Hat Mono", monospace;
-    font-weight: lighter;
+    background: #ccdce5;
+    color: #0a0a31;
+
+    margin: 0 8vw;
     line-height: 1.6em;
-    margin: 0 5vw;
+
+    font-size: 2.5vw;
+    font-family: "Red Hat Mono", monospace;
+    font-weight: bolder;
 }
 
 main {
     margin: 0 16px;
-    padding: 32px 16px 0 16px;
+    padding: 3vw 3vw 0 3vw;
 }
 
 a, a:visited {
     text-decoration: none;
-    color: #45c5ff;
+    color: #187329;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 24px 0;
+    border: 2px solid #2472a2;
+    border-radius: 1px;
 }
 
 h2 {
-    color: white;
+    color: #0c5481;
     font-size: 180%;
     font-weight: bolder;
-    margin-bottom: 32px;
 }
 
 h3 {
@@ -49,7 +60,7 @@ li span {
 }
 
 li ul li {
-   margin-left: 2vw;
+   margin-left: 3vw;
 }
 
 .dict-key {
