@@ -1,18 +1,43 @@
 @import "reset.css";
 @import "fonts.css";
 
+body, html {
+    height: 100%;
+}
+
+html {
+    background: skyblue;
+}
+
 body {
-    padding: 16px 16px 0 16px;
-    background: #000;
-    color: #fff;
+    background: midnightblue;
+    color: #c2eafc;
     font-size: 2vw;
     font-family: "Red Hat Mono", monospace;
+    font-weight: lighter;
     line-height: 1.6em;
+    margin: 0 5vw;
+}
+
+main {
+    margin: 0 16px;
+    padding: 32px 16px 0 16px;
 }
 
 a, a:visited {
     text-decoration: none;
-    color: greenyellow;
+    color: #45c5ff;
+}
+
+h2 {
+    color: white;
+    font-size: 180%;
+    font-weight: bolder;
+    margin-bottom: 32px;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 ul {
@@ -24,11 +49,11 @@ li span {
 }
 
 li ul li {
-   margin-left: 16px;
+   margin-left: 2vw;
 }
 
 .dict-key {
-    width: 40vw;
+    width: 30vw;
 }
 
 .dict-key:after {

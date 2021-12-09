@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
+    <h2>{{ registry.name }}</h2>
     <ul>
     {% for repo in repositories %}
         <li>
-            <p>{{ repo.name }}</p>
+            <h3>{{ repo.name }}</h3>
             <ul>
                 {% for tag in repo.tags %}
                     <li>
